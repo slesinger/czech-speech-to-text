@@ -6,15 +6,13 @@ Tags: czech language, stt, speech recognition, voice transcription, asr, offline
 
 Czech language lacks a modern speech recognition engine that can be used offline, e.g. home automation, robotics.
 
-Mozilla Common Voice is an initiative that provides some hope but there are very little czech speaking supporters giving their voice. Given current speed of gathering data, it will take 100years to capture enough for Mozilla to train a model.
+Mozilla Common Voice is an initiative that provides some hope but there are very little czech speaking supporters giving their voice. Given current speed of gathering data, it will still take significant time to capture enough recordings to train a official model.
 
 Please contribute your voice: :point_right: https://commonvoice.mozilla.org/cs/speak :point_left:
 
 Thank you :thumbsup:
 
-Goal of this project is to train a model from existing data, though not perfect, and make it available to anyone.
-
-As a next step, to gather new source of data other then Common Voice dataset.
+Goal of this project is to train a model now, from existing data, though not perfect, and make it available to everyone.
 
 This project is based on [Baidu Deep Speeech 2 paper](http://proceedings.mlr.press/v48/amodei16.pdf) and https://github.com/SeanNaren/deepspeech.pytorch. 
 
@@ -46,7 +44,7 @@ See specific [README.md](language_model/README.md)
 
 ## Procedure:
 
-1. Download latest model from releases https://github.com/slesinger/commonvoice-czech/releases
+1. Download latest models from releases https://deepspeech.slesinger.info
 
 There are two files:
 - Accoustic model: ```deepspeech_final.pth```
