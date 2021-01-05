@@ -34,9 +34,15 @@ Transcription happens in two phases. First an accoustic model estimates best rep
 ## Accoustic Model
 See specific [README.md](accoustic_model/README.md)
 
+Based on:
+ - 45 hours of Mozilla Common Voice
+
 ## Language Model
 See specific [README.md](language_model/README.md)
 
+Based on:
+ - 700MB of czech wikipedia
+ 
 # Installation (for using the model)
 
 ## Requirements:
