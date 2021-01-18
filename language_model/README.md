@@ -28,3 +28,31 @@ Untar the zip so that it fits into prepared directory structure ```czech-speech-
 
 Use wikipedia.ipynb to preprocess data.
 
+## Databazeknih
+eBook conversion tool ```sudo aptitude instal calibre```
+```
+ebook-convert input.epub output.txt
+```
+
+or massive convert
+```
+for file  in ./*.epub; do   ebook-convert "$file" "$file.txt"; done
+```
+
+https://www.databazeknih.cz/eknihy-zdarma-ke-stazeni
+
+https://lindat.cz/repository/xmlui/handle/11234/1-1847
+
+Cesky Ekumenicky Preklad
+
+http://www.ujc.cas.cz/phword/
+
+## CWC2011
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0006-B847-6
+
+## czes
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0001-CCCF-C
+
+## Ortofon
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2580
+
