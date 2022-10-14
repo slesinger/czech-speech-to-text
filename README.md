@@ -2,6 +2,10 @@
 
 Tags: czech language, stt, speech recognition, voice transcription, asr, offline, free
 
+## Alternative project
+
+Check [another model that is trained on similar dataset](https://coqui.ai/czech/comodoro/v0.3.0). It is part of Conqui.ai
+
 ## Background
 
 Czech language lacks a modern speech recognition engine that can be used offline, e.g. home automation, robotics.
