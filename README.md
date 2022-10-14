@@ -63,6 +63,8 @@ Place the files to any directory, for example ```/home/hass/docker-volumes/deeps
 sudo docker run -v /home/hass/docker-volumes/deepspeech:/workspace/data --tmpfs /tmp -p 8888:8888 -p 10456:10456 --net=host --ipc=host --name deepspeech -e MODEL=/workspace/data/deepspeech_final.pth -e LM=/workspace/data/lm.bin slesinger/deepspeech:latest
 ```
 
+Inspiration for [Dockerfile](https://github.com/arpabet/deepspeech-docker/blob/master/Dockerfile).
+
 Make sure environment variable point to correct model files.
 
 ## Using the model
